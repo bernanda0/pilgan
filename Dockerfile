@@ -8,4 +8,4 @@ RUN pip install --no-cache-dir -r req.txt
 
 EXPOSE 6969
 
-CMD ["python", "quiz_server.py"]
+CMD ["python", "server.py"]
