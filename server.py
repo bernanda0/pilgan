@@ -35,7 +35,7 @@ def run_quiz_server():
         print(f"Connection from {client_address}")
         
         score = 0
-        total_questions = 2
+        total_questions = 10
         
         # Pilih 10 soal acak
         random_questions = select_random_questions(questions, total_questions)

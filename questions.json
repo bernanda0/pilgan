@@ -1,47 +1,442 @@
 [
     {
         "id": 1,
-        "question": "Jelaskan pengertian secure communication beserta contohnya secara detil!",
-        "options": ["A. Pertukaran informasi secara aman", 
-                    "B. Komunikasi yang terenkripsi", 
-                    "C. Pertukaran data melalui internet", 
-                    "D. Sistem penyimpanan data rahasia"],
-        "answer": "B"
+        "question": "Apa itu cryptography dan apa tujuan utamanya?",
+        "options": [
+            "A. Proses enkripsi data untuk mencegah akses tidak sah",
+            "B. Penggunaan algoritma untuk meningkatkan kecepatan jaringan",
+            "C. Sistem untuk mempercepat pengiriman email",
+            "D. Teknik untuk menyembunyikan file dalam gambar"
+        ],
+        "answer": "A"
     },
     {
         "id": 2,
         "question": "Jelaskan 4 prinsip utama dalam secure communication!",
-        "options": ["A. Confidentiality, Integrity, Authentication, Non-repudiation", 
-                    "B. Encryption, Decryption, Hacking, Privacy", 
-                    "C. Firewall, Proxy, VPN, Antivirus", 
-                    "D. RSA, AES, 3DES, SHA"],
+        "options": [
+            "A. Confidentiality, Integrity, Authentication, Non-repudiation",
+            "B. Encryption, Decryption, Hacking, Privacy",
+            "C. Firewall, Proxy, VPN, Antivirus",
+            "D. RSA, AES, 3DES, SHA"
+        ],
         "answer": "A"
     },
     {
         "id": 3,
-        "question": "Dari segi keamanan, apakah komunikasi pada jaringan wireless lebih aman dibandingkan jaringan wired?",
-        "options": ["A. Ya, karena menggunakan sinyal fisik", 
-                    "B. Tidak, jaringan wired lebih aman", 
-                    "C. Sama-sama aman", 
-                    "D. Wireless lebih aman karena tidak bisa dipantau"],
-        "answer": "B"
-    },
-    {
-        "id": 4,
-        "question": "Jelaskan pengertian kriptografi beserta contoh sederhana dikehidupan nyata!",
-        "options": ["A. Penyandian data menjadi bentuk yang tidak dapat dibaca", 
-                    "B. Pengamanan file", 
-                    "C. Algoritma matematika untuk enkripsi", 
-                    "D. Sistem penyimpanan data rahasia"],
+        "question": "Apa perbedaan utama antara symmetric dan asymmetric cryptography?",
+        "options": [
+            "A. Symmetric menggunakan satu kunci, sedangkan asymmetric menggunakan dua kunci",
+            "B. Symmetric lebih lambat dibanding asymmetric",
+            "C. Asymmetric hanya menggunakan satu kunci untuk dekripsi",
+            "D. Symmetric menggunakan dua kunci, asymmetric menggunakan satu"
+        ],
         "answer": "A"
     },
     {
+        "id": 4,
+        "question": "Apa itu hash algorithm?",
+        "options": [
+            "A. Algoritma yang mengubah data menjadi bentuk teracak untuk enkripsi",
+            "B. Algoritma yang membuat sidik jari digital untuk set data",
+            "C. Proses dekripsi data dari ciphertext",
+            "D. Metode penyembunyian pesan dalam data metadata"
+        ],
+        "answer": "B"
+    },
+    {
         "id": 5,
-        "question": "Apa itu Public Key Infrastructure? Berikan analogi sederhana untuk mempermudah penjelasan.",
-        "options": ["A. Sistem sertifikat kunci publik", 
-                    "B. Algoritma untuk dekripsi data", 
-                    "C. Sertifikat tanda tangan digital", 
-                    "D. Sistem penyandian data"],
+        "question": "Algoritma mana yang dianggap sebagai standar enkripsi modern?",
+        "options": [
+            "A. DES",
+            "B. 3DES",
+            "C. AES",
+            "D. MD5"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 6,
+        "question": "Apa kegunaan dari digital signature dalam secure communication?",
+        "options": [
+            "A. Untuk mengirim pesan rahasia",
+            "B. Untuk memverifikasi keaslian pesan",
+            "C. Untuk mengenkripsi pesan",
+            "D. Untuk mengamankan jaringan dari serangan"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 7,
+        "question": "Apa tujuan dari Pretty Good Privacy (PGP)?",
+        "options": [
+            "A. Melindungi integritas file yang diunduh",
+            "B. Mengamankan komunikasi email dengan enkripsi asimetris",
+            "C. Mencegah malware di jaringan komputer",
+            "D. Menyembunyikan pesan dalam file gambar"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 8,
+        "question": "Apa kelemahan utama dari DES (Data Encryption Standard)?",
+        "options": [
+            "A. Ukuran blok yang terlalu besar",
+            "B. Rentan terhadap serangan brute-force karena ukuran kunci 56-bit",
+            "C. Menggunakan dua kunci untuk enkripsi dan dekripsi",
+            "D. Proses enkripsinya sangat lambat"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 9,
+        "question": "Apa perbedaan utama antara steganografi dan kriptografi?",
+        "options": [
+            "A. Steganografi menyembunyikan pesan, sementara kriptografi mengenkripsi pesan",
+            "B. Steganografi menggunakan enkripsi yang lebih kuat daripada kriptografi",
+            "C. Kriptografi digunakan untuk menyembunyikan pesan, steganografi untuk mengenkripsi",
+            "D. Keduanya adalah teknik yang sama"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 10,
+        "question": "Apa fungsi dari OpenPGP dalam secure communication?",
+        "options": [
+            "A. Menggunakan sertifikasi dari otoritas pusat untuk memverifikasi kunci publik",
+            "B. Menggunakan web of trust untuk mengautentikasi kunci publik",
+            "C. Menyembunyikan pesan dalam data metadata",
+            "D. Menggunakan enkripsi simetris untuk melindungi pesan"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 11,
+        "question": "Apa itu SSL (Secure Sockets Layer)?",
+        "options": [
+            "A. Protokol untuk mengamankan komunikasi di jaringan",
+            "B. Algoritma enkripsi simetris",
+            "C. Sistem untuk mendeteksi virus dalam jaringan",
+            "D. Teknologi untuk mempercepat pengiriman data"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 12,
+        "question": "Apa peran utama dari Certificate Authority (CA) dalam secure communication?",
+        "options": [
+            "A. Menghasilkan kunci enkripsi simetris",
+            "B. Memvalidasi dan mengeluarkan sertifikat digital",
+            "C. Mengidentifikasi malware dalam jaringan",
+            "D. Mengontrol akses ke jaringan publik"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 13,
+        "question": "Apa tujuan dari TLS (Transport Layer Security)?",
+        "options": [
+            "A. Untuk menggantikan SSL dalam menyediakan komunikasi yang aman",
+            "B. Untuk mengenkripsi data pada level jaringan",
+            "C. Untuk melindungi komputer dari virus",
+            "D. Untuk mempercepat transmisi data di internet"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 14,
+        "question": "Apa itu Non-repudiation dalam konteks secure communication?",
+        "options": [
+            "A. Kemampuan untuk memastikan bahwa pesan tidak dimodifikasi",
+            "B. Kemampuan untuk membuktikan bahwa pengirim tidak dapat menyangkal telah mengirim pesan",
+            "C. Kemampuan untuk mengenkripsi data dengan kunci publik",
+            "D. Kemampuan untuk memastikan bahwa pesan tidak dibaca oleh pihak yang tidak berwenang"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 15,
+        "question": "Apa itu VPN (Virtual Private Network)?",
+        "options": [
+            "A. Teknologi yang memungkinkan komunikasi aman melalui jaringan publik",
+            "B. Sistem untuk mendeteksi ancaman virus",
+            "C. Algoritma untuk mengenkripsi data di cloud",
+            "D. Sistem untuk mempercepat akses internet"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 16,
+        "question": "Apa yang dimaksud dengan man-in-the-middle attack?",
+        "options": [
+            "A. Serangan di mana pihak ketiga menyusup di antara komunikasi dua pihak",
+            "B. Serangan yang mengenkripsi data tanpa sepengetahuan pengirim",
+            "C. Serangan yang mengganggu aliran data di server",
+            "D. Serangan yang menggunakan perangkat lunak antivirus palsu"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 17,
+        "question": "Apa fungsi utama dari firewall dalam sebuah jaringan?",
+        "options": [
+            "A. Mengontrol dan memfilter lalu lintas masuk dan keluar berdasarkan aturan keamanan",
+            "B. Mengenkripsi semua data yang dikirim melalui jaringan",
+            "C. Memindai jaringan untuk malware",
+            "D. Menyediakan akses jarak jauh yang aman"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 18,
+        "question": "Apa kelemahan utama dari penggunaan kunci statis dalam symmetric cryptography?",
+        "options": [
+            "A. Kunci dapat digunakan oleh siapa saja untuk mengakses pesan terenkripsi",
+            "B. Kunci tidak dapat diubah, sehingga rentan terhadap serangan brute force",
+            "C. Kunci mudah terhapus setelah digunakan",
+            "D. Kunci hanya berlaku untuk satu sesi komunikasi"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 19,
+        "question": "Apa itu Diffie-Hellman key exchange?",
+        "options": [
+            "A. Protokol untuk bertukar kunci enkripsi secara aman melalui saluran yang tidak aman",
+            "B. Algoritma enkripsi simetris yang populer",
+            "C. Teknologi untuk melindungi jaringan dari serangan DDoS",
+            "D. Metode untuk mendeteksi malware dalam komunikasi data"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 20,
+        "question": "Apa itu liveness detection dalam biometrik?",
+        "options": [
+            "A. Proses untuk memastikan bahwa data biometrik berasal dari sumber yang hidup dan nyata",
+            "B. Proses untuk mempercepat otentikasi pengguna",
+            "C. Metode untuk menyembunyikan sidik jari digital",
+            "D. Teknologi untuk mengidentifikasi virus dalam sistem biometrik"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 21,
+        "question": "Apa itu brute-force attack?",
+        "options": [
+            "A. Serangan di mana penyerang mencoba semua kombinasi kunci yang mungkin untuk mendekripsi data",
+            "B. Serangan yang melibatkan penggunaan virus untuk membobol firewall",
+            "C. Serangan yang merusak jaringan secara fisik",
+            "D. Serangan yang mengidentifikasi kelemahan dalam algoritma enkripsi"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 22,
+        "question": "Apa fungsi dari Two-Factor Authentication (2FA)?",
+        "options": [
+            "A. Menambah lapisan keamanan dengan memerlukan dua metode otentikasi",
+            "B. Mempercepat proses login ke jaringan",
+            "C. Menggandakan enkripsi data",
+            "D. Melindungi komputer dari virus"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 23,
+        "question": "Apa itu Phishing attack?",
+        "options": [
+            "A. Serangan yang memalsukan komunikasi untuk menipu pengguna agar memberikan informasi pribadi",
+            "B. Serangan yang menginfeksi komputer dengan malware",
+            "C. Serangan yang melibatkan cracking password",
+            "D. Serangan yang menargetkan perangkat mobile"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 24,
+        "question": "Apa kegunaan dari Public Key Infrastructure (PKI)?",
+        "options": [
+            "A. Menyediakan kerangka kerja untuk membuat, mengelola, mendistribusikan, menggunakan, menyimpan, dan mencabut sertifikat digital",
+            "B. Mengelola kunci enkripsi simetris di jaringan lokal",
+            "C. Memindai dan mendeteksi malware dalam komunikasi data",
+            "D. Melindungi data dengan teknik steganografi"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 25,
+        "question": "Apa itu Zero Trust security model?",
+        "options": [
+            "A. Model keamanan yang tidak mempercayai perangkat, identitas, atau jaringan tanpa verifikasi",
+            "B. Protokol enkripsi untuk komunikasi data",
+            "C. Sistem keamanan yang mengandalkan antivirus saja",
+            "D. Pendekatan untuk mendeteksi serangan brute force"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 26,
+        "question": "Apa itu Social Engineering attack?",
+        "options": [
+            "A. Serangan yang memanipulasi manusia untuk membocorkan informasi rahasia",
+            "B. Serangan yang memanfaatkan kelemahan perangkat keras",
+            "C. Serangan yang menggunakan algoritma enkripsi",
+            "D. Serangan yang menyusup melalui jaringan nirkabel"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 27,
+        "question": "Apa itu SQL Injection?",
+        "options": [
+            "A. Serangan di mana penyerang menyisipkan kode SQL berbahaya ke dalam input aplikasi",
+            "B. Metode untuk meningkatkan kecepatan database",
+            "C. Algoritma untuk mengenkripsi data dalam database",
+            "D. Teknologi untuk mengamankan database dari serangan"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 28,
+        "question": "Apa itu Intrusion Detection System (IDS)?",
+        "options": [
+            "A. Sistem yang memonitor lalu lintas jaringan untuk mendeteksi aktivitas mencurigakan",
+            "B. Teknologi untuk mengenkripsi komunikasi dalam jaringan",
+            "C. Algoritma untuk memblokir serangan brute force",
+            "D. Sistem untuk mempercepat transmisi data dalam jaringan"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 29,
+        "question": "Apa itu Cryptanalysis?",
+        "options": [
+            "A. Studi untuk memecahkan kode atau algoritma kriptografi",
+            "B. Teknologi untuk mengamankan komunikasi dengan enkripsi",
+            "C. Proses dekripsi yang dilakukan oleh komputer",
+            "D. Algoritma untuk mempercepat kriptografi asimetris"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 30,
+        "question": "Apa itu DDoS (Distributed Denial of Service) attack?",
+        "options": [
+            "A. Serangan yang mencoba melumpuhkan server dengan membanjirinya dengan lalu lintas",
+            "B. Serangan yang melibatkan enkripsi kunci publik",
+            "C. Serangan yang menyisipkan virus ke dalam komunikasi data",
+            "D. Serangan yang mempercepat jaringan internet"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 31,
+        "question": "Apa itu hashing?",
+        "options": [
+            "A. Proses menghasilkan nilai tetap (hash) dari input data untuk tujuan verifikasi",
+            "B. Algoritma untuk mengenkripsi data",
+            "C. Teknologi untuk mempercepat akses ke jaringan",
+            "D. Sistem untuk mendeteksi malware dalam jaringan"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 32,
+        "question": "Apa itu SSL Certificate?",
+        "options": [
+            "A. Sertifikat digital yang mengotentikasi identitas situs web dan mengenkripsi informasi yang dikirim ke server",
+            "B. Algoritma untuk mengenkripsi data dengan kunci privat",
+            "C. Sistem untuk mendeteksi ancaman virus",
+            "D. Teknologi untuk mempercepat transmisi data"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 33,
+        "question": "Apa yang dimaksud dengan data encryption at rest?",
+        "options": [
+            "A. Melindungi data yang disimpan dengan mengenkripsinya",
+            "B. Melindungi data yang sedang ditransmisikan",
+            "C. Menghapus data secara aman dari server",
+            "D. Menyimpan data di cloud dengan perlindungan firewall"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 34,
+        "question": "Apa itu Cyber Threat Intelligence?",
+        "options": [
+            "A. Proses pengumpulan dan analisis informasi tentang ancaman keamanan siber",
+            "B. Teknologi untuk memblokir serangan virus",
+            "C. Sistem untuk mengenkripsi komunikasi data",
+            "D. Teknologi untuk melindungi perangkat lunak dari eksploitasi"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 35,
+        "question": "Apa tujuan utama dari ISO/IEC 27001?",
+        "options": [
+            "A. Menetapkan standar untuk sistem manajemen keamanan informasi",
+            "B. Mengatur cara mengenkripsi data di cloud",
+            "C. Melindungi jaringan dari serangan brute force",
+            "D. Mengontrol akses ke informasi sensitif"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 36,
+        "question": "Apa itu Penetration Testing?",
+        "options": [
+            "A. Proses menguji keamanan sistem dengan mensimulasikan serangan siber",
+            "B. Teknologi untuk melindungi jaringan dari virus",
+            "C. Sistem untuk mengenkripsi data dalam transmisi",
+            "D. Algoritma untuk mendeteksi malware"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 37,
+        "question": "Apa itu Ransomware?",
+        "options": [
+            "A. Malware yang mengenkripsi data pengguna dan meminta tebusan untuk pemulihan",
+            "B. Virus yang menginfeksi jaringan dan memperlambat kecepatan internet",
+            "C. Algoritma untuk mengenkripsi data di cloud",
+            "D. Sistem untuk melindungi komputer dari spyware"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 38,
+        "question": "Apa tujuan dari Multifactor Authentication (MFA)?",
+        "options": [
+            "A. Untuk meningkatkan keamanan dengan meminta lebih dari satu metode otentikasi",
+            "B. Untuk mempercepat proses login",
+            "C. Untuk mengenkripsi data saat transit",
+            "D. Untuk mengurangi serangan brute force"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 39,
+        "question": "Apa itu Incident Response?",
+        "options": [
+            "A. Proses merespons dan mengelola dampak dari serangan keamanan siber",
+            "B. Sistem untuk mengenkripsi data dalam komunikasi jaringan",
+            "C. Teknologi untuk mendeteksi dan memblokir virus",
+            "D. Sistem untuk mempercepat respons aplikasi"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 40,
+        "question": "Apa itu Secure Development Lifecycle (SDL)?",
+        "options": [
+            "A. Metodologi untuk memastikan bahwa keamanan ditangani selama semua tahap pengembangan perangkat lunak",
+            "B. Proses untuk mengenkripsi kode sumber perangkat lunak",
+            "C. Sistem untuk mendeteksi kelemahan dalam jaringan pengembangan",
+            "D. Teknologi untuk melindungi perangkat lunak dari eksploitasi"
+        ],
         "answer": "A"
     }
 ]
