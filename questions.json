@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "question": "Jelaskan pengertian secure communication beserta contohnya secara detil!",
+        "options": ["A. Pertukaran informasi secara aman", 
+                    "B. Komunikasi yang terenkripsi", 
+                    "C. Pertukaran data melalui internet", 
+                    "D. Sistem penyimpanan data rahasia"],
+        "answer": "B"
+    },
+    {
+        "id": 2,
+        "question": "Jelaskan 4 prinsip utama dalam secure communication!",
+        "options": ["A. Confidentiality, Integrity, Authentication, Non-repudiation", 
+                    "B. Encryption, Decryption, Hacking, Privacy", 
+                    "C. Firewall, Proxy, VPN, Antivirus", 
+                    "D. RSA, AES, 3DES, SHA"],
+        "answer": "A"
+    },
+    {
+        "id": 3,
+        "question": "Dari segi keamanan, apakah komunikasi pada jaringan wireless lebih aman dibandingkan jaringan wired?",
+        "options": ["A. Ya, karena menggunakan sinyal fisik", 
+                    "B. Tidak, jaringan wired lebih aman", 
+                    "C. Sama-sama aman", 
+                    "D. Wireless lebih aman karena tidak bisa dipantau"],
+        "answer": "B"
+    },
+    {
+        "id": 4,
+        "question": "Jelaskan pengertian kriptografi beserta contoh sederhana dikehidupan nyata!",
+        "options": ["A. Penyandian data menjadi bentuk yang tidak dapat dibaca", 
+                    "B. Pengamanan file", 
+                    "C. Algoritma matematika untuk enkripsi", 
+                    "D. Sistem penyimpanan data rahasia"],
+        "answer": "A"
+    },
+    {
+        "id": 5,
+        "question": "Apa itu Public Key Infrastructure? Berikan analogi sederhana untuk mempermudah penjelasan.",
+        "options": ["A. Sistem sertifikat kunci publik", 
+                    "B. Algoritma untuk dekripsi data", 
+                    "C. Sertifikat tanda tangan digital", 
+                    "D. Sistem penyandian data"],
+        "answer": "A"
+    }
+]
